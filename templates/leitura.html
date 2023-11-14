@@ -1,0 +1,20 @@
+<div class="banner">
+    <img src="../img/pngwing.com.png" alt="" />
+  </div>
+
+<div class="Article_base">
+    <h1>{{ArtigoCarregado.Titulo}}</h1>
+    <h3>{{ArtigoCarregado.Autor}}</h3>
+    <div class="Corpo_Artigo">
+        {{ArtigoCarregado.Conteudo}}
+    </div>
+</div>
+
+<div id="art1" class="artigos_recomendados">
+    <h1>Artigos Recomendados</h1>
+    <div class="Artigo_sq" ng-repeat="x in Sugeridos">
+        <h2>{{x.Titulo}}</h2>
+        <h2>{{x.Autor}}</h2>
+        <a href="http://127.0.0.1:5500/index.html#!/leitura/{{x.id}}">Acessar Artigo</a>
+    </div>
+</div>
