@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: black;
+}
+
+#menu{
+    display: flex;
+    background-color: black;
+}
+
+#menu a{
+    color: antiquewhite;
+}
+
+#menu ul{
+    display: flex;
+    
+}
+
+#menu ul li{
+    margin: 2vh;
+}
+
+.banner img{
+    background-color: black;
+    margin-left: 5vh ;
+    width: 90%;
+    height: 50vh;
+}
+
+.main{
+    display: flex;
+}
+
+.introducao{
+    margin: 5vh;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+.articles_{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 35%;
+    padding: 2vh;
+}
+
+.articles_ a{
+    float: right;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.Artigo_sq{
+    width: 100%;
+    height: 40%;
+    padding: 2vh;
+    margin: 2vh;
+    border-bottom: antiquewhite solid 2px;
+    justify-content: space-between;
+}
+
+.Artigo_sq h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: small;
+}
+
+.ArtigosList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10vh;
+    
+}
+
+.artigos_cards{
+    margin: 3vh;
+    padding: 2vh;
+    border-right: antiquewhite solid 2px;
+}
+
+.artigos_cards h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: small;
+}
+
+.artigos_cards a{
+    float: right;
+    border-bottom: antiquewhite  solid 2px;
+}
+
+.Article_base{
+    margin: 3vh;
+}
+
+.Article_base h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: small; 
+}
+
+.Corpo_Artigo{
+    margin-top: 2vh;
+}
+
+.artigos_recomendados{
+    justify-content: center;
+}
+
+.artigos_recomendados .Artigo_sq a{
+float: right;
+margin-right: 2vh;
+}
+
+
+
+
+
